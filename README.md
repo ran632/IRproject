@@ -7,6 +7,7 @@ ran632@gmail.com
 Project was written in ruby language.
 
 -----======== INSTALLATION ========-----
+
 First, you'll need to download install ruby, ofcourse :)
 Version 2.1.5 is recommended
 You can download it from here:
@@ -21,6 +22,7 @@ In the directory of this file please execute this commands (in the following ord
 ```
 
 -----======== USAGE ========-----
+
 The project is divided to two parts by files.
 part1.rb and part2-5.rb
 
