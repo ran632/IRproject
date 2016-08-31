@@ -14,10 +14,11 @@ https://www.ruby-lang.org/en/news/2014/11/13/ruby-2-1-5-is-released/
 
 After ruby is installed,
 In the directory of this file please execute this commands (in the following order):
+```
   gem install bundler
   bundle install
   git add Gemfile Gemfile.lock
-
+```
 
 -----======== USAGE ========-----
 The project is divided to two parts by files.
@@ -27,7 +28,8 @@ part1.rb and part2-5.rb
 
 Crawling movies documents from TOREC.net, and outputs metadata file ('data.csv') and movies directory with their description
 Command (within this file directory):
-  ruby part1.rb
+
+``` ruby part1.rb ```
 
 first, you'll be asked by the program for how many movies would like to crawl.
 type number from 1 to, lets say, 8500 (num of movies in torec.net)?, and the press ENTER
@@ -37,8 +39,9 @@ The program will start crawling, it can take some time, depands of how many movi
 
 Initialize the search engine, and initiate the User Interface for searching.
 Command (within this file directory):
+```
   ruby part2-5.rb
-
+```
 After initializing (takes like 10 seconds) you can start send hebrew queries.
 after every query that being sent you'll be asked for how many results you would like to receive (will take the best ones relying on BM25 score)
 The results output will be within this directory in 'results.txt'.
